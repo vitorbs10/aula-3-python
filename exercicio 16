@@ -1,0 +1,8 @@
+anonasc = int (input('digite o seu ano de nascimento = '))
+ano = 2021
+calculo = 2021 - anonasc
+
+if calculo >= 16 :
+    print ('VOCÊ JÁ PODE VOTAR!')
+else:
+    print ('VOCÊ NÃO PODE VOTAR AINDA!')
