@@ -1,0 +1,20 @@
+media = int (input('qual a sua média?'))
+
+if media < 4:
+    print ('CONCEITO E, VOCÊ ESTÁ REPROVADO!')
+
+elif media >= 4 and media < 6:
+    print ('CONCEITO D, VOCÊ ESTÁ REPROVADO!')
+
+elif media >= 6 and media < 7.5:
+    print ('CONCEITO C, VOCÊ ESTÁ APROVADO!')
+
+elif media >= 7.5 and media < 9 :
+    print ('CONCEITO B, VOCÊ ESTÁ APROVADO!')
+    
+elif media >= 9 and media <= 10 :
+    print ('CONCEITO A, VOCÊ ESTÁ APROVADO!')
+
+else :
+
+    print ('Está não é uma nota válida')
