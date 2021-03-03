@@ -1,0 +1,15 @@
+n1 = float (input('digite o primeiro número = '))
+n2 = float (input('digite o segundo número = '))
+n3 = float (input('digite o terceiro número = '))
+
+
+if n1 > n2 and n2 > n3 :
+    calculo = n1 + n2
+    print ('a soma dois maiores números é ', calculo)
+elif n2 > n3 and n3 > n1 :
+    calculo = n2 + n3
+    print ('a soma dois maiores números é ', calculo)
+else :
+    calculo = n1 + n3
+    print ('a soma dois maiores números é ', calculo)
+    
