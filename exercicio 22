@@ -1,0 +1,14 @@
+idade = int (input('qual a idade da criança?'))
+
+if idade == 4 or idade == 5:
+    print ('A criança está na turma A!')
+
+elif idade >= 6 and idade <= 8:
+    print ('A criança está na turma B!')
+    
+elif idade >= 9 and idade<=10:
+    print ('A criança está na turma C!')
+    
+else :
+    
+    print ('Não existe turma para essa idade!')
