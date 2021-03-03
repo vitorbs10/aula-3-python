@@ -1,0 +1,8 @@
+numero = int(input('Digite um inteiro: '))
+
+calculo = numero % 2
+
+if calculo == 0 :
+     print ('PAR!')
+else :
+     print ('íMPAR!')
