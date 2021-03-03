@@ -13,4 +13,4 @@ elif salario <= 2000 :
 else:
      calculo = salario * 0.30
    
-    print ('seu desconto é de = ', calculo)
+print ('seu desconto é de = ', calculo)
