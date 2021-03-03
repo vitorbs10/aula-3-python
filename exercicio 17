@@ -1,0 +1,10 @@
+nota1 = int (input('digite a NOTA da sua primeira prova = '))
+nota2 = int (input('digite a NOTA da sua segunda prova = '))
+nota3 = int (input('digite a NOTA da sua terceira prova = '))
+
+calculo = ((nota1 * 2) + (nota2 * 3)+ (nota3 * 5)) / 10
+
+if calculo  >= 9:
+  print ("PARABÉNS, SUA NOTA É =", calculo , 'VOCÊ ESTÁ APROVADO')
+else:
+    print ("Que pena, sua nota é = ", calculo , 'VOCÊ ESTÁ REPROVADO')
